@@ -13,9 +13,9 @@ printf("ingrese la base: \n");
 scanf("%d",&base);
 printf("ingrese la altura: \n");
 scanf("%d",&altura);
-	p=perimetro(base,altura);
-	a=area(base,altura);
-	printf("area es :%d\n",a);
-	printf("perimetro es: %d\n",p);
+	//p=perimetro(base,altura); Se puede realizar la llamada en el prinf
+	//a=area(base,altura);
+	printf("area es :%d\n",area(base,altura));
+	printf("perimetro es: %d\n",perimetro(base,altura));
 	return 0;
 }
